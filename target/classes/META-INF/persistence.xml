@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence;https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+    <persistence-unit name="default">
+
+        <class>sv.edu.udb.www.entities.GetitAdministradorGetitEntity</class>
+        <class>sv.edu.udb.www.entities.GetitAdministradorTransportistaEntity</class>
+        <class>sv.edu.udb.www.entities.GetitClientesEntity</class>
+        <class>sv.edu.udb.www.entities.GetitComidasEntity</class>
+        <class>sv.edu.udb.www.entities.GetitEstadosGeneralesEntity</class>
+        <class>sv.edu.udb.www.entities.GetitEstadosPedidoEntity</class>
+        <class>sv.edu.udb.www.entities.GetitMotoristaEntity</class>
+        <class>sv.edu.udb.www.entities.GetitPagosEntity</class>
+        <class>sv.edu.udb.www.entities.GetitPedidosEntity</class>
+        <class>sv.edu.udb.www.entities.GetitQuejasEntity</class>
+        <class>sv.edu.udb.www.entities.GetitTipoPagosEntity</class>
+        <class>sv.edu.udb.www.entities.GetitUnidadesTransporteEntity</class>
+        <class>sv.edu.udb.www.entities.GetitUsuariosEntity</class>
+        <properties>
+            <property name="eclipselink.jdbc.url" value="jdbc:mysql://localhost:3306/getit"/>
+            <property name="eclipselink.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="eclipselink.jdbc.user" value="root"/>
+        </properties>
+    </persistence-unit>
+</persistence>
